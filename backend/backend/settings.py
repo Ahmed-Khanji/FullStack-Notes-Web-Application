@@ -131,5 +131,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Load environment variables
 CORS_ALLOW_ALL_ORIGINS = True  # Allow all origins for CORS; adjust in production
 CORSE_ALLOWS_CREDENTIALS = True  # Allow credentials for CORS; adjust in production
