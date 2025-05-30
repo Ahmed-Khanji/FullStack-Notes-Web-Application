@@ -34,3 +34,13 @@ class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [AllowAny]
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+
+        if serializer.is_valid():
+            self.perform_create(serializer)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        else:
+            print("REGISTER ERROR:", serializer.errors)  # 🔍 Print to terminal
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
