@@ -18,6 +18,7 @@ function Form({ route, method }) {
         e.preventDefault();
 
         try {
+            console.log({ username, password })
             const res = await api.post(route, { username, password })
             if (method === "login") {
                 localStorage.setItem(ACCESS_TOKEN, res.data.access);
@@ -50,7 +51,7 @@ function Form({ route, method }) {
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Password"
             />
-            {loading && <LoadingIndicator />}
+            {/* {loading && <LoadingIndicator />} */}
             <button className="form-button" type="submit">
                 {name}
             </button>
