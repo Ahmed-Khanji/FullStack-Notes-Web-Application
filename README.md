@@ -1,2 +1,27 @@
-# FullStack-Notes-Web-Application-
-Full-stack web application using Django for the backend and React for the frontend. It includes implementing JWT authentication and deploying the application.
+# Full Stack Notes Web Application
+
+A secure, responsive web application that allows users to **create**, **manage**, and **access** personal notes across devices. It features **JWT authentication**, **Django REST API**, and a modern **React** frontend.  
+✅ Deployed using **[Choreo](https://wso2.com/choreo/)**.
+
+## 🚀 Tech Stack
+
+- **Frontend:** React (JavaScript)
+- **Backend:** Django (Python)
+- **Database:** PostgreSQL
+- **Authentication:** JWT
+- **Deployment:** Choreo
+
+## 🛠️ Features
+
+- Register/Login with JWT authentication
+- Create, view, and delete notes (CRUD)
+- Persistent cloud storage using PostgreSQL
+- Protected routes for authenticated users
+- Dynamic and responsive interface
+
+#### Setup Backend (Django)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
