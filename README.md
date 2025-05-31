@@ -1,7 +1,6 @@
 # Full Stack Notes Web Application
 
-A secure, responsive web application that allows users to **create**, **manage**, and **access** personal notes across devices. It features **JWT authentication**, **Django REST API**, and a modern **React** frontend.  
-✅ Deployed using **[Choreo](https://wso2.com/choreo/)**.
+[AK Quick Notes](https://fullstack-notes-frontend-a2tg.onrender.com) is a secure, responsive web application that allows users to **create**, **manage**, and **access** personal notes across devices. It features **JWT authentication**, **Django REST API**, and a modern **React** frontend.  
 
 ## 🚀 Tech Stack
 
@@ -9,7 +8,7 @@ A secure, responsive web application that allows users to **create**, **manage**
 - **Backend:** Django (Python)
 - **Database:** PostgreSQL
 - **Authentication:** JWT
-- **Deployment:** Choreo
+- **Deployment:** Render
 
 ## 🛠️ Features
 
