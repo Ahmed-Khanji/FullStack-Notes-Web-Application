@@ -1,6 +1,6 @@
 # Full Stack Notes Web Application
 
-[AK Quick Notes](https://fullstack-notes-frontend-a2tg.onrender.com) is a secure, responsive web application that allows users to **create**, **manage**, and **access** personal notes across devices. It features **JWT authentication**, **Django REST API**, and a modern **React** frontend.  
+<a href="https://fullstack-notes-frontend-a2tg.onrender.com" target="_blank">AK Quick Notes</a> is a secure, responsive web application that allows users to **create**, **manage**, and **access** personal notes across devices. It features **JWT authentication**, **Django REST API**, and a modern **React** frontend.  
 
 ## 🚀 Tech Stack
 
