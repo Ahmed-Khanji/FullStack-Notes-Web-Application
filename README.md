@@ -19,6 +19,8 @@ A secure, responsive web application that allows users to **create**, **manage**
 - Protected routes for authenticated users
 - Dynamic and responsive interface
 
+![Demo](./Demo.gif)
+
 #### Setup Backend (Django)
 
 ```bash
